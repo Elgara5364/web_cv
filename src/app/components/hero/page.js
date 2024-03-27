@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
 
         <h1 className="text-8xl text-secondary">Steve Loardi</h1>
-        {/* <BackgroundBeams /> */}
+        <BackgroundBeams />
       </div>
     </section>
   );
