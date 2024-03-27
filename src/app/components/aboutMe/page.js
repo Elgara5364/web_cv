@@ -13,7 +13,8 @@ const AboutMe = () => {
       <div className="block lg:flex gap-20">
         <Image
           src={Myprofile}
-          alt=""
+          priority={true}
+          alt="Steve's Photo"
           width={580}
           height={573}
           style={{
@@ -47,17 +48,27 @@ const AboutMe = () => {
               <Link
                 href={"https://www.linkedin.com/in/steve-loardi"}
                 className="bg-slate-300 rounded-full p-1.5">
-                <Image src={Linkedin} width={20} height={20} />
+                <Image
+                  src={Linkedin}
+                  width={20}
+                  height={"auto"}
+                  alt="Linkedin"
+                />
               </Link>
               <Link
                 href={"https://www.facebook.com/steve.loardi"}
                 className="bg-slate-300 rounded-full p-1.5">
-                <Image src={Facebook} width={20} height={20} />
+                <Image
+                  src={Facebook}
+                  width={"auto"}
+                  height={20}
+                  alt="Facebook"
+                />
               </Link>
               <Link
                 href={"https://github.com/Elgara5364"}
                 className="bg-slate-300 rounded-full p-1.5">
-                <Image src={Github} width={20} height={20} />
+                <Image src={Github} width={"auto"} height={20} alt="github" />
               </Link>
             </div>
           </div>

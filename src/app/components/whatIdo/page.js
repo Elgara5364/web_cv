@@ -17,13 +17,12 @@ import bcr from "/public/bcr.png";
 import wedding from "/public/wedding.png";
 import Link from "next/link";
 import Image from "next/image";
-import Project1 from "/public/lofi-girl-art-wallpaper-3840x2160_54.jpg";
 
 const WhatIDo = () => {
   const data = [
     {
       image: bcr,
-      alt: "Project1",
+      alt: "Website Cars rental",
       title: "Binar Car Rental",
       description:
         "Website untuk menyewa Mobil. Penyewa dan Pengguna dipermudah untuk melakukan sewa dan membayar mobil yg di sewa. Pengguna bisa memilih mobil yang ingin disewa, memilih durasi sewa dan memilih pembayaran via bank tertentu",
@@ -31,6 +30,7 @@ const WhatIDo = () => {
     },
     {
       image: wedding,
+      alt: "Wedding Invitation",
       title: "Wedding Invitation",
       description:
         "Undangan Pernikahan dalam bentuk web. User bisa melihat pasangan mempelai, lokasi pernikahan, dan bisa mengisi apakah mereka akan hadir dan jumlah yang akan hadir. Pengguna juga bisa melihat hitung mundur acara.",
@@ -73,15 +73,14 @@ const WhatIDo = () => {
           },
         }}
         className="mySwiper">
-        {data.map((data) => (
-          <SwiperSlide>
+        {data.map((data, index) => (
+          <SwiperSlide key={index}>
             <div className=" bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-5 lg:mx-0 xl:mx-0 2xl:mx-0">
               {/* <Link href={data.link}> */}
               <Image
                 class="rounded-t-lg w-[500px] h-[250px]"
                 src={data.image}
                 alt={data.alt}
-                c
               />
               {/* </Link> */}
               <div class="p-5">
