@@ -14,8 +14,10 @@ const Experience = () => {
   const interest = ["Gaming", "Reading", "Badminton", "Photography", "Swim"];
 
   return (
-    <section className="px-4 py-4 z-10 lg:mx-20 2xl:mx-60 2xl:pt-20 md:mx-10 mx-2 text-center">
-      <div id="experience" className="mb-3 pt-12">
+    <section
+      className="px-4 pt-10 z-10 lg:mx-20 2xl:mx-60 2xl:pt-20 md:mx-10 mx-2 text-center"
+      id="experience">
+      <div className="mb-3 pt-12">
         <div className="flex flex-col md:grid md:grid-cols-2 gap-5 ">
           <div className=" flex flex-col gap-5">
             <div className="border-[#fca311] bg-black border-2 rounded-xl p-5">

@@ -40,7 +40,7 @@ const WhatIDo = () => {
 
   return (
     <div
-      className="mx-2 pt-5 md:mx-10 px-4 lg:mx-20 lg:pt-7 2xl:mx-60"
+      className="mx-2 pt-20 md:mx-10 px-4 lg:mx-20 lg:pt-20 2xl:mx-60"
       id="what-i-do">
       {/* <h1 className="text-center mb-10">What I Do</h1> */}
       <h1 className="mb-3 text-primary font-bold text-xl text-center">
@@ -58,7 +58,7 @@ const WhatIDo = () => {
         centeredSlides={true}
         breakpoints={{
           300: {
-            slidesPerView: "auto",
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {
@@ -75,7 +75,7 @@ const WhatIDo = () => {
         className="mySwiper">
         {data.map((data) => (
           <SwiperSlide>
-            <div className=" bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-5 lg:mx-0 xl:mx-0 2xl:mx-0">
               {/* <Link href={data.link}> */}
               <Image
                 class="rounded-t-lg w-[500px] h-[250px]"

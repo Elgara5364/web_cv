@@ -7,7 +7,7 @@ const Sidebar = () => {
   const [show, setisShow] = useState(false);
 
   const links = [
-    { section: "About Me", link: "#about-me" },
+    { section: "About Me", link: "#aboutme" },
     { section: "What i do", link: "#what-i-do" },
     { section: "Experience", link: "#experience" },
     { section: "Contact Me", link: "#contact-me" },
@@ -22,7 +22,7 @@ const Sidebar = () => {
   return (
     <aside className=" lg:hidden">
       {show ? (
-        <div className=" bg-white top-0 left-1/2 absolute z-40 w-1/2 h-[100vh]">
+        <div className=" bg-white top-0 left-1/2 absolute z-10 w-1/2 h-[100vh]">
           <div className="p-7 flex flex-col gap-3">
             <div onClick={handleClick} className="text-black">
               close
