@@ -30,8 +30,11 @@ const Navbar = () => {
   return (
     <nav
       className={clsx(
-        " flex justify-between px-6 py-6 z-10 lg:px-20 2xl:mx-60 md:px-10 duration-150 o",
-        { "bg-black/75 sticky top-0 ": bgColor === true }
+        " flex justify-between px-6 py-6 z-10 lg:px-20 2xl:mx-60 md:px-10 ",
+        {
+          "bg-black/75 sticky top-0 ": bgColor === true,
+          "relative ": bgColor === false,
+        }
       )}>
       <div>
         <h1 className="font-bold text-3xl cursor-default text-[#e5e5e5]">
