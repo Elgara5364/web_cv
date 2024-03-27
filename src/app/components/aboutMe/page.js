@@ -23,7 +23,7 @@ const AboutMe = () => {
           }}
           className="max-w-lg"
         />
-        <div className=" mt-5 xl:mt-0 flex flex-col">
+        <div className="mt-5 xl:mt-0 flex flex-col">
           <div>
             <h1 className="mb-3 text-primary font-bold text-xl">About me</h1>
             <h2 className="text-5xl font-bold mb-5 text-secondary">

@@ -59,7 +59,7 @@ export const BackgroundBeams = React.memo(({ className }) => {
   return (
     <div
       className={cn(
-        "absolute top-[68px] h-[450px] w-full [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center",
+        "absolute  h-[550px] w-full inset-0  [mask-size:40px] [mask-repeat:no-repeat] flex items-center justify-center",
         className
       )}>
       <svg
@@ -87,11 +87,13 @@ export const BackgroundBeams = React.memo(({ className }) => {
           {paths.map((path, index) => (
             <motion.linearGradient
               id={`linearGradient-${index}`}
-              x1="100%"
-              x2="100%"
-              y1="100%"
-              y2="100%"
               key={`gradient-${index}`}
+              initial={{
+                x1: "0%",
+                x2: "0%",
+                y1: "0%",
+                y2: "0%",
+              }}
               animate={{
                 x1: ["0%", "100%"],
                 x2: ["0%", "95%"],
