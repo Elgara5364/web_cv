@@ -25,10 +25,12 @@ const Experience = () => {
                 Soft Skills
               </h4>
               <div className="  flex flex-wrap w-full gap-5 ">
-                {skill.map((skill) => (
-                  <h5 className="border-[#14213D] border-2 rounded-3xl text-white  px-5 py-2">
-                    {skill}
-                  </h5>
+                {skill.map((skill, index) => (
+                  <div key={index}>
+                    <h5 className="border-[#14213D] border-2 rounded-3xl text-white  px-5 py-2">
+                      {skill}
+                    </h5>
+                  </div>
                 ))}
               </div>
             </div>
@@ -37,10 +39,12 @@ const Experience = () => {
                 Interest
               </h4>
               <div className="  flex flex-wrap w-full gap-5 ">
-                {interest.map((items) => (
-                  <h5 className="border-[#14213D] text-white border-2 rounded-3xl px-5 py-2">
-                    {items}
-                  </h5>
+                {interest.map((items, index) => (
+                  <div key={index}>
+                    <h5 className="border-[#14213D] text-white border-2 rounded-3xl px-5 py-2">
+                      {items}
+                    </h5>
+                  </div>
                 ))}
               </div>
             </div>

@@ -31,11 +31,11 @@ const AboutMe = () => {
             </h2>
             <p className="leading-7 text-white">
               I am a frontend developer who lives in Timika. As a frontend
-              developer i'm more focusing on the UI / UX of web Application. I
-              have finished my bootcamp on binar academy and im still curious
-              about web development. I love to get new experience and always
-              learn from my surroundings. I looking forward to any opportunities
-              and challenges.
+              developer i&apos;m more focusing on the UI / UX of web
+              Application. I have finished my bootcamp on binar academy and im
+              still curious about web development. I love to get new experience
+              and always learn from my surroundings. I looking forward to any
+              opportunities and challenges.
             </p>
             <br></br>
             <p>If you want to see what i did press the button below.</p>

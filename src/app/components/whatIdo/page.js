@@ -25,7 +25,7 @@ const WhatIDo = () => {
       alt: "Website Cars rental",
       title: "Binar Car Rental",
       description:
-        "Website untuk menyewa Mobil. Penyewa dan Pengguna dipermudah untuk melakukan sewa dan membayar mobil yg di sewa. Pengguna bisa memilih mobil yang ingin disewa, memilih durasi sewa dan memilih pembayaran via bank tertentu",
+        "Website for renting a car. Renters and users make it easier to rent and pay for the car they rent. Users can choose the car they want to rent, choose the rental duration and choose payment via a certain bank",
       link: "https://binar-car-rental-group-challenge.vercel.app/",
     },
     {
@@ -33,7 +33,7 @@ const WhatIDo = () => {
       alt: "Wedding Invitation",
       title: "Wedding Invitation",
       description:
-        "Undangan Pernikahan dalam bentuk web. User bisa melihat pasangan mempelai, lokasi pernikahan, dan bisa mengisi apakah mereka akan hadir dan jumlah yang akan hadir. Pengguna juga bisa melihat hitung mundur acara.",
+        "Wedding invitations in web form. Users can see the bride and groom, the wedding location, and can fill in whether they will attend and how many will attend. Users can also see the event countdown.",
       link: "https://elgara5364.github.io/Wedding-Invitation/",
     },
   ];
