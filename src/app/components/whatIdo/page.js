@@ -17,6 +17,8 @@ import bcr from "/public/bcr.png";
 import wedding from "/public/wedding.png";
 import Link from "next/link";
 import Image from "next/image";
+import HeadphoneLandingPage from "/public/headphone-responsive-LP.png";
+import { title } from "process";
 
 const WhatIDo = () => {
   const data = [
@@ -35,6 +37,14 @@ const WhatIDo = () => {
       description:
         "Wedding invitations in web form. Users can see the bride and groom, the wedding location, and can fill in whether they will attend and how many will attend. Users can also see the event countdown.",
       link: "https://elgara5364.github.io/Wedding-Invitation/",
+    },
+    {
+      image: HeadphoneLandingPage,
+      alt: "Headphone Landing Page image",
+      title: "Headphone Landing Page image",
+      description:
+        "This is Website Product. Landing page is Responsive and you can see animation too.",
+      link: "https://binar-car-rental-group-challenge-2q1c-pl1j8e7ub.vercel.app/",
     },
   ];
 
